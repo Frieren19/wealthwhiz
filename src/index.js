@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 3000;
-const wealthwhizRouter = require("./src/routes/wealthwhiz");
+const wealthwhizRouter = require("./routes/wealthwhiz");
 app.use(express.json());
 app.use(
   express.urlencoded({
